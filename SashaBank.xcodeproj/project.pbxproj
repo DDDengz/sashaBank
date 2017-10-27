@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAB1E5901FA343E8000BEF31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1E58F1FA343E8000BEF31 /* AppDelegate.swift */; };
+		CAB1E5921FA343E8000BEF31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1E5911FA343E8000BEF31 /* ViewController.swift */; };
+		CAB1E5951FA343E8000BEF31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB1E5931FA343E8000BEF31 /* Main.storyboard */; };
+		CAB1E5971FA343E8000BEF31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB1E5961FA343E8000BEF31 /* Assets.xcassets */; };
+		CAB1E59A1FA343E8000BEF31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB1E5981FA343E8000BEF31 /* LaunchScreen.storyboard */; };
+		CAB1E5A51FA343E8000BEF31 /* SashaBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1E5A41FA343E8000BEF31 /* SashaBankTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAB1E5A11FA343E8000BEF31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB1E5841FA343E8000BEF31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAB1E58B1FA343E8000BEF31;
+			remoteInfo = SashaBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAB1E58C1FA343E8000BEF31 /* SashaBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SashaBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB1E58F1FA343E8000BEF31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAB1E5911FA343E8000BEF31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAB1E5941FA343E8000BEF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAB1E5961FA343E8000BEF31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAB1E5991FA343E8000BEF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAB1E59B1FA343E8000BEF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB1E5A01FA343E8000BEF31 /* SashaBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SashaBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB1E5A41FA343E8000BEF31 /* SashaBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SashaBankTests.swift; sourceTree = "<group>"; };
+		CAB1E5A61FA343E8000BEF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAB1E5891FA343E8000BEF31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB1E59D1FA343E8000BEF31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAB1E5831FA343E8000BEF31 = {
+			isa = PBXGroup;
+			children = (
+				CAB1E58E1FA343E8000BEF31 /* SashaBank */,
+				CAB1E5A31FA343E8000BEF31 /* SashaBankTests */,
+				CAB1E58D1FA343E8000BEF31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB1E58D1FA343E8000BEF31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB1E58C1FA343E8000BEF31 /* SashaBank.app */,
+				CAB1E5A01FA343E8000BEF31 /* SashaBankTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB1E58E1FA343E8000BEF31 /* SashaBank */ = {
+			isa = PBXGroup;
+			children = (
+				CAB1E58F1FA343E8000BEF31 /* AppDelegate.swift */,
+				CAB1E5911FA343E8000BEF31 /* ViewController.swift */,
+				CAB1E5931FA343E8000BEF31 /* Main.storyboard */,
+				CAB1E5961FA343E8000BEF31 /* Assets.xcassets */,
+				CAB1E5981FA343E8000BEF31 /* LaunchScreen.storyboard */,
+				CAB1E59B1FA343E8000BEF31 /* Info.plist */,
+			);
+			path = SashaBank;
+			sourceTree = "<group>";
+		};
+		CAB1E5A31FA343E8000BEF31 /* SashaBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAB1E5A41FA343E8000BEF31 /* SashaBankTests.swift */,
+				CAB1E5A61FA343E8000BEF31 /* Info.plist */,
+			);
+			path = SashaBankTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAB1E58B1FA343E8000BEF31 /* SashaBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB1E5A91FA343E8000BEF31 /* Build configuration list for PBXNativeTarget "SashaBank" */;
+			buildPhases = (
+				CAB1E5881FA343E8000BEF31 /* Sources */,
+				CAB1E5891FA343E8000BEF31 /* Frameworks */,
+				CAB1E58A1FA343E8000BEF31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SashaBank;
+			productName = SashaBank;
+			productReference = CAB1E58C1FA343E8000BEF31 /* SashaBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAB1E59F1FA343E8000BEF31 /* SashaBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB1E5AC1FA343E8000BEF31 /* Build configuration list for PBXNativeTarget "SashaBankTests" */;
+			buildPhases = (
+				CAB1E59C1FA343E8000BEF31 /* Sources */,
+				CAB1E59D1FA343E8000BEF31 /* Frameworks */,
+				CAB1E59E1FA343E8000BEF31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAB1E5A21FA343E8000BEF31 /* PBXTargetDependency */,
+			);
+			name = SashaBankTests;
+			productName = SashaBankTests;
+			productReference = CAB1E5A01FA343E8000BEF31 /* SashaBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB1E5841FA343E8000BEF31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Alex Dearden";
+				TargetAttributes = {
+					CAB1E58B1FA343E8000BEF31 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					CAB1E59F1FA343E8000BEF31 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAB1E58B1FA343E8000BEF31;
+					};
+				};
+			};
+			buildConfigurationList = CAB1E5871FA343E8000BEF31 /* Build configuration list for PBXProject "SashaBank" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAB1E5831FA343E8000BEF31;
+			productRefGroup = CAB1E58D1FA343E8000BEF31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAB1E58B1FA343E8000BEF31 /* SashaBank */,
+				CAB1E59F1FA343E8000BEF31 /* SashaBankTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAB1E58A1FA343E8000BEF31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB1E59A1FA343E8000BEF31 /* LaunchScreen.storyboard in Resources */,
+				CAB1E5971FA343E8000BEF31 /* Assets.xcassets in Resources */,
+				CAB1E5951FA343E8000BEF31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB1E59E1FA343E8000BEF31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAB1E5881FA343E8000BEF31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB1E5921FA343E8000BEF31 /* ViewController.swift in Sources */,
+				CAB1E5901FA343E8000BEF31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB1E59C1FA343E8000BEF31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB1E5A51FA343E8000BEF31 /* SashaBankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAB1E5A21FA343E8000BEF31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAB1E58B1FA343E8000BEF31 /* SashaBank */;
+			targetProxy = CAB1E5A11FA343E8000BEF31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAB1E5931FA343E8000BEF31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB1E5941FA343E8000BEF31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAB1E5981FA343E8000BEF31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB1E5991FA343E8000BEF31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAB1E5A71FA343E8000BEF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAB1E5A81FA343E8000BEF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAB1E5AA1FA343E8000BEF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6K396NRDW;
+				INFOPLIST_FILE = SashaBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexDearden.SashaBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAB1E5AB1FA343E8000BEF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6K396NRDW;
+				INFOPLIST_FILE = SashaBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexDearden.SashaBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAB1E5AD1FA343E8000BEF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6K396NRDW;
+				INFOPLIST_FILE = SashaBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexDearden.SashaBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SashaBank.app/SashaBank";
+			};
+			name = Debug;
+		};
+		CAB1E5AE1FA343E8000BEF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6K396NRDW;
+				INFOPLIST_FILE = SashaBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexDearden.SashaBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SashaBank.app/SashaBank";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAB1E5871FA343E8000BEF31 /* Build configuration list for PBXProject "SashaBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB1E5A71FA343E8000BEF31 /* Debug */,
+				CAB1E5A81FA343E8000BEF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB1E5A91FA343E8000BEF31 /* Build configuration list for PBXNativeTarget "SashaBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB1E5AA1FA343E8000BEF31 /* Debug */,
+				CAB1E5AB1FA343E8000BEF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB1E5AC1FA343E8000BEF31 /* Build configuration list for PBXNativeTarget "SashaBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB1E5AD1FA343E8000BEF31 /* Debug */,
+				CAB1E5AE1FA343E8000BEF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAB1E5841FA343E8000BEF31 /* Project object */;
+}
