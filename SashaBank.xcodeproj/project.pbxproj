@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		288FC969652B198C2D4B5C7D /* Pods_SashaBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B64D9A75658DE8E9E7087 /* Pods_SashaBankTests.framework */; };
+		4FCD8EBED010868B4137161E /* Pods_SashaBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C6BAE7647CC4A1E87591AE /* Pods_SashaBank.framework */; };
 		CAB1E5901FA343E8000BEF31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1E58F1FA343E8000BEF31 /* AppDelegate.swift */; };
-		CAB1E5921FA343E8000BEF31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1E5911FA343E8000BEF31 /* ViewController.swift */; };
 		CAB1E5951FA343E8000BEF31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB1E5931FA343E8000BEF31 /* Main.storyboard */; };
 		CAB1E5971FA343E8000BEF31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB1E5961FA343E8000BEF31 /* Assets.xcassets */; };
 		CAB1E59A1FA343E8000BEF31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB1E5981FA343E8000BEF31 /* LaunchScreen.storyboard */; };
 		CAB1E5A51FA343E8000BEF31 /* SashaBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1E5A41FA343E8000BEF31 /* SashaBankTests.swift */; };
+		CAB1E5B51FA34463000BEF31 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1E5B31FA34462000BEF31 /* Extensions.swift */; };
+		CAB1E5B61FA34463000BEF31 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1E5B41FA34462000BEF31 /* Enums.swift */; };
+		CAB1E5B81FA34497000BEF31 /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = CAB1E5B71FA34497000BEF31 /* 1.json */; };
+		CAB1E5BB1FA344D3000BEF31 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1E5B91FA344D3000BEF31 /* DetailsVC.swift */; };
+		CAB1E5BC1FA344D3000BEF31 /* TransactionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1E5BA1FA344D3000BEF31 /* TransactionsVC.swift */; };
+		CAB1E5C11FA344F2000BEF31 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1E5BD1FA344F1000BEF31 /* Transaction.swift */; };
+		CAB1E5C21FA344F2000BEF31 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1E5BE1FA344F1000BEF31 /* TransactionCell.swift */; };
+		CAB1E5C31FA344F2000BEF31 /* RemoteServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1E5BF1FA344F2000BEF31 /* RemoteServices.swift */; };
+		CAB1E5C41FA344F2000BEF31 /* TransactionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1E5C01FA344F2000BEF31 /* TransactionsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45C6BAE7647CC4A1E87591AE /* Pods_SashaBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SashaBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C436F9EC129E7917D0838A0 /* Pods-SashaBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SashaBankTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SashaBankTests/Pods-SashaBankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EE492529FB3E943DB6BBA29 /* Pods-SashaBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SashaBank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SashaBank/Pods-SashaBank.debug.xcconfig"; sourceTree = "<group>"; };
+		830B64D9A75658DE8E9E7087 /* Pods_SashaBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SashaBankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CDE8DF3E5DFE36B6415CCC /* Pods-SashaBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SashaBankTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SashaBankTests/Pods-SashaBankTests.release.xcconfig"; sourceTree = "<group>"; };
 		CAB1E58C1FA343E8000BEF31 /* SashaBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SashaBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB1E58F1FA343E8000BEF31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CAB1E5911FA343E8000BEF31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CAB1E5941FA343E8000BEF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAB1E5961FA343E8000BEF31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAB1E5991FA343E8000BEF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +50,16 @@
 		CAB1E5A01FA343E8000BEF31 /* SashaBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SashaBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB1E5A41FA343E8000BEF31 /* SashaBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SashaBankTests.swift; sourceTree = "<group>"; };
 		CAB1E5A61FA343E8000BEF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB1E5B31FA34462000BEF31 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CAB1E5B41FA34462000BEF31 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		CAB1E5B71FA34497000BEF31 /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
+		CAB1E5B91FA344D3000BEF31 /* DetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		CAB1E5BA1FA344D3000BEF31 /* TransactionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsVC.swift; sourceTree = "<group>"; };
+		CAB1E5BD1FA344F1000BEF31 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		CAB1E5BE1FA344F1000BEF31 /* TransactionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		CAB1E5BF1FA344F2000BEF31 /* RemoteServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteServices.swift; sourceTree = "<group>"; };
+		CAB1E5C01FA344F2000BEF31 /* TransactionsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsModel.swift; sourceTree = "<group>"; };
+		F34A38C7BB35D298CDF90060 /* Pods-SashaBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SashaBank.release.xcconfig"; path = "Pods/Target Support Files/Pods-SashaBank/Pods-SashaBank.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FCD8EBED010868B4137161E /* Pods_SashaBank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				288FC969652B198C2D4B5C7D /* Pods_SashaBankTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +88,8 @@
 				CAB1E58E1FA343E8000BEF31 /* SashaBank */,
 				CAB1E5A31FA343E8000BEF31 /* SashaBankTests */,
 				CAB1E58D1FA343E8000BEF31 /* Products */,
+				FE4150541410502F6F3A3F83 /* Pods */,
+				F889189916CCE8CB81A3486E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +105,11 @@
 		CAB1E58E1FA343E8000BEF31 /* SashaBank */ = {
 			isa = PBXGroup;
 			children = (
+				CAB1E5B21FA3442E000BEF31 /* Helpers */,
+				CAB1E5B11FA34421000BEF31 /* View Controllers */,
+				CAB1E5B01FA34412000BEF31 /* Models */,
+				CAB1E5AF1FA34408000BEF31 /* Mocks */,
 				CAB1E58F1FA343E8000BEF31 /* AppDelegate.swift */,
-				CAB1E5911FA343E8000BEF31 /* ViewController.swift */,
 				CAB1E5931FA343E8000BEF31 /* Main.storyboard */,
 				CAB1E5961FA343E8000BEF31 /* Assets.xcassets */,
 				CAB1E5981FA343E8000BEF31 /* LaunchScreen.storyboard */,
@@ -96,6 +127,63 @@
 			path = SashaBankTests;
 			sourceTree = "<group>";
 		};
+		CAB1E5AF1FA34408000BEF31 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				CAB1E5B71FA34497000BEF31 /* 1.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		CAB1E5B01FA34412000BEF31 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CAB1E5BF1FA344F2000BEF31 /* RemoteServices.swift */,
+				CAB1E5BD1FA344F1000BEF31 /* Transaction.swift */,
+				CAB1E5BE1FA344F1000BEF31 /* TransactionCell.swift */,
+				CAB1E5C01FA344F2000BEF31 /* TransactionsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CAB1E5B11FA34421000BEF31 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CAB1E5B91FA344D3000BEF31 /* DetailsVC.swift */,
+				CAB1E5BA1FA344D3000BEF31 /* TransactionsVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CAB1E5B21FA3442E000BEF31 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CAB1E5B41FA34462000BEF31 /* Enums.swift */,
+				CAB1E5B31FA34462000BEF31 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F889189916CCE8CB81A3486E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45C6BAE7647CC4A1E87591AE /* Pods_SashaBank.framework */,
+				830B64D9A75658DE8E9E7087 /* Pods_SashaBankTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE4150541410502F6F3A3F83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EE492529FB3E943DB6BBA29 /* Pods-SashaBank.debug.xcconfig */,
+				F34A38C7BB35D298CDF90060 /* Pods-SashaBank.release.xcconfig */,
+				4C436F9EC129E7917D0838A0 /* Pods-SashaBankTests.debug.xcconfig */,
+				85CDE8DF3E5DFE36B6415CCC /* Pods-SashaBankTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAB1E5A91FA343E8000BEF31 /* Build configuration list for PBXNativeTarget "SashaBank" */;
 			buildPhases = (
+				99F1E50BB09F86635B85B016 /* [CP] Check Pods Manifest.lock */,
 				CAB1E5881FA343E8000BEF31 /* Sources */,
 				CAB1E5891FA343E8000BEF31 /* Frameworks */,
 				CAB1E58A1FA343E8000BEF31 /* Resources */,
+				0B9B47A267A23A651FDBC01A /* [CP] Embed Pods Frameworks */,
+				340A6971A4C2312ABFD0267C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAB1E5AC1FA343E8000BEF31 /* Build configuration list for PBXNativeTarget "SashaBankTests" */;
 			buildPhases = (
+				A811A6900947EB5916FFC65C /* [CP] Check Pods Manifest.lock */,
 				CAB1E59C1FA343E8000BEF31 /* Sources */,
 				CAB1E59D1FA343E8000BEF31 /* Frameworks */,
 				CAB1E59E1FA343E8000BEF31 /* Resources */,
+				0B917979AC3B15F8FA8E6491 /* [CP] Embed Pods Frameworks */,
+				502C28619678933AF99E2427 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,6 +276,7 @@
 				CAB1E59A1FA343E8000BEF31 /* LaunchScreen.storyboard in Resources */,
 				CAB1E5971FA343E8000BEF31 /* Assets.xcassets in Resources */,
 				CAB1E5951FA343E8000BEF31 /* Main.storyboard in Resources */,
+				CAB1E5B81FA34497000BEF31 /* 1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,13 +289,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B917979AC3B15F8FA8E6491 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SashaBankTests/Pods-SashaBankTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B9B47A267A23A651FDBC01A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SashaBank/Pods-SashaBank-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SashaBank/Pods-SashaBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		340A6971A4C2312ABFD0267C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SashaBank/Pods-SashaBank-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		502C28619678933AF99E2427 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SashaBankTests/Pods-SashaBankTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99F1E50BB09F86635B85B016 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SashaBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A811A6900947EB5916FFC65C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SashaBankTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CAB1E5881FA343E8000BEF31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAB1E5921FA343E8000BEF31 /* ViewController.swift in Sources */,
+				CAB1E5C21FA344F2000BEF31 /* TransactionCell.swift in Sources */,
+				CAB1E5B51FA34463000BEF31 /* Extensions.swift in Sources */,
+				CAB1E5BB1FA344D3000BEF31 /* DetailsVC.swift in Sources */,
+				CAB1E5C11FA344F2000BEF31 /* Transaction.swift in Sources */,
+				CAB1E5B61FA34463000BEF31 /* Enums.swift in Sources */,
 				CAB1E5901FA343E8000BEF31 /* AppDelegate.swift in Sources */,
+				CAB1E5BC1FA344D3000BEF31 /* TransactionsVC.swift in Sources */,
+				CAB1E5C41FA344F2000BEF31 /* TransactionsModel.swift in Sources */,
+				CAB1E5C31FA344F2000BEF31 /* RemoteServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +555,7 @@
 		};
 		CAB1E5AA1FA343E8000BEF31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE492529FB3E943DB6BBA29 /* Pods-SashaBank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +571,7 @@
 		};
 		CAB1E5AB1FA343E8000BEF31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F34A38C7BB35D298CDF90060 /* Pods-SashaBank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +587,7 @@
 		};
 		CAB1E5AD1FA343E8000BEF31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C436F9EC129E7917D0838A0 /* Pods-SashaBankTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +605,7 @@
 		};
 		CAB1E5AE1FA343E8000BEF31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CDE8DF3E5DFE36B6415CCC /* Pods-SashaBankTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
